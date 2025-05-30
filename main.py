@@ -663,6 +663,8 @@ def creacion_df_general_fbref(league='Big 5 European Leagues', season="2024-2025
     """
     
     df_stats, url = extract_tables(league=league, season="2024-2025", stat="Standard Stats")
+    print(df_stats)
+    print(df_stats.columns)
     df_general_stats= formatear_datos(df_stats)
     
     df_shooting, url = extract_tables(league=league, season="2024-2025", stat="Shooting")

@@ -6,3 +6,4 @@ requests
 matplotlib
 seaborn
 plotly
+lxml==4.9.3

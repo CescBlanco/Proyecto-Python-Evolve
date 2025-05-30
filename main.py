@@ -8,6 +8,7 @@ import pandas as pd
 import numpy as np
 import requests
 from bs4 import BeautifulSoup, Comment
+import lxml
 
 # Configuración general de la app
 st.set_page_config(page_title="Análisis FBref - La Liga", page_icon="⚽", layout="wide")
